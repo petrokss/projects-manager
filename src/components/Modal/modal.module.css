@@ -1,0 +1,72 @@
+.modal {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.content {
+  width: 433px;
+  height: 192px;
+  background-color: #EEEFF3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.content--text-group {
+  display: flex;
+}
+
+.content--text-group .question-icon {
+  margin-right: 16px;
+}
+
+.text {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.text--primary {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.text--secondary {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-left: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button-yes {
+  background-color: #1890FF;
+  border: none;
+}
+
+.button-no {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.question-icon {
+  width: 22px;
+  height: 22px;
+}
